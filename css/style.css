@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-weight: 300;
+}
+h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+a, .highlight {
+  color: var(--secondary);
+}
+.mybtn {
+  border: none;
+  background-color: var(--primary);
+  padding: 10px 25px;
+  margin-top: 40px;
+}
+.mybtn:focus {
+  outline: none;
+}
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-1 {
+  height: 550px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container-1 .photo img {
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.name {
+  margin-top: 20px;
+}
+.container-2 {
+  background-color: var(--primary);
+  font-size: 15px;
+}
+.container-2 .core-skills ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+.container-2 .personal-summary,
+.container-2 .core-skills {
+  padding: 35px 35px 0 35px;
+}
+.container-2 .personal-summary h3,
+.container-2 .core-skills h3 {
+  margin-bottom: 10px;
+}
+
+.container-2 .skills-cols ul {
+  margin-bottom: 15px;
+}
+
+.container-3 {
+  height: 550px;
+}
+
+.container-3 .description-box .title-bar,
+.container-4 .description-box .title-bar {
+  text-transform: uppercase;
+  background-color: var(--primary);
+  width: 100%;
+}
+.icon {
+  background-color: var(--secondary);
+  font-size: 20px;
+  color: white;
+  padding: 8px;
+}
+.container-3 .description-box .description,
+.container-4 .description-box .description {
+  margin-left: 35px;
+}
+.container-3 .description-box .description h5,
+.container-4 .description-box .description h5 {
+  margin-top: 6px;
+}
+.container-3 .description-box .description h6,
+.container-4 .description-box .description h6 {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 5px 0;
+}
+.container-3 .description-box .description ul,
+.container-4 .description-box .description ul,
+.container-4 .description-box .description p {
+  list-style-type: none;
+  font-size: 14px;
+}
+.contact {
+  margin-top: 30px;
+}
+.contact ul {
+  margin-top: 10px;
+}
+.contact li {
+  margin-bottom: 4px;
+}
+@media all and (min-width: 0px) and (max-width: 992px) {
+  .container-3 {
+    height: inherit;
+  }
+}
+
+
+
+@media print {
+
+  .mybtn {
+    display: none
+  }
+  a{
+    text-decoration: none;
+  }
+
+}
